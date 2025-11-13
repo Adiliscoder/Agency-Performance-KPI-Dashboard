@@ -1,141 +1,191 @@
-✅ How to Use the Dashboard
+> 🔒 **Security & Privacy**  
+> *This project reflects real business logic and real operational processes, but all data has been fully anonymized.*  
+> *No identifiable or sensitive company information is included in this public version.*
 
-This dashboard is designed for end-users, meaning you can interact with the analytics, but you cannot modify the structure, formulas, VBA, or data model.
+📊 Agency Performance KPI Dashboard
 
-All sheets are protected, and the VBA project is locked to ensure integrity and prevent accidental changes.
+📌 Project originally developed in a professional environment for performance monitoring across a network of multiple agencies.
+This public version has been fully anonymized and rebuilt to highlight my expertise in:
+Power Query • Excel • PowerPivot • DAX • Data Modeling • Business Intelligence • KPI Automation.
 
-Follow these steps:
+📊 Professional BI Dashboard built end-to-end for executive performance monitoring
 
-🔐 1. Open the Dashboard
+🎯 Recruiter-Focused Summary
 
-Open the file:
+This project demonstrates my ability to design, build, and maintain complete Excel-based Business Intelligence solutions for real-world operational needs.
+Originally created in a corporate environment for multi-agency performance tracking, this public version recreates the full logic, architecture, automation, and analytics while keeping all sensitive data removed.
+
+👤 My Role
+
+I independently managed the full lifecycle of this BI solution:
+Requirements gathering with business teams
+Designing KPIs and performance indicators
+Building the data model (PowerPivot)
+Developing ETL pipelines with Power Query
+Implementing DAX calculations for KPIs, YTD, and variance analysis
+Creating interactive dashboards and user-friendly navigation
+Securing the Excel file (VBA protection, locked structure, controlled user inputs)
+
+➡️ This project highlights my ability to deliver production-ready BI tools used daily by non-technical business users.
+
+🚀 What This Project Demonstrates About My Skills
+🧩 1. End-to-End Data Workflow Ownership
+
+I built the entire workflow:
+Extract → Transform → Load (Power Query)
+Data modeling (PowerPivot)
+KPIs & measures (DAX)
+Visualization & interaction (Excel dashboards + slicers)
+Automation & refresh logic (VBA + Power Query)
+
+➡️ Demonstrates my capacity to design full BI systems autonomously.
+
+🎯 2. Strong Data Modeling & KPI Logic
+
+Normalization of raw operational data
+Segmentation logic (branches, sites, usages, mutuelles)
+YTD / YoY variance calculations
+Multi-level dynamic filtering & cross-analysis
+
+➡️ Shows advanced analytical and KPI engineering skills.
+
+📈 3. Business Impact
+
+This dashboard enables:
+
+Better monitoring of agency performance
+Faster and more reliable decision-making
+Standardized metrics shared across stakeholders
+Significant time savings through automation
+Clear visibility on objectives and variances
+
+➡️ Demonstrates strong business understanding.
+
+🛠 4. Technical Skills Practiced
+
+Power Query (M language, ETL automation)
+PowerPivot (data model, relationships)
+DAX (YTD, YoY, variance, KPIs)
+Excel (advanced dashboards, slicers, visuals)
+VBA (secured structure, automation)
+Data Cleaning & Standardization
+Dataset performance optimization
+
+➡️ Matches BI Analyst & Data Analyst skill expectations.
+
+🧪 5. Professional-Grade Delivery
+
+Protected Excel structure (locked sheets + protected VBA project)
+Clean and documented architecture
+Real-world business rules
+Optimized refresh performance
+
+➡️ Shows high standards of BI delivery.
+
+⭐ In Short
+
+A complete demonstration of my ability to build professional BI systems, combining business understanding, technical skills, and clean execution.
+
+📊 Technical Project Description
+Professional-grade Excel BI Dashboard for multi-agency performance monitoring
+🚀 Overview
+
+This dashboard consolidates:
+YTD results
+Variances vs previous year
+Objective tracking
+Usage decomposition
+Transfer impacts
+KPI analytics
+Multi-criteria filtering (Zone, Mutuelle, Branch, Bureau, Usage)
+Technologies used:
+Power Query – ETL & data cleansing
+PowerPivot – Data model & relationships
+DAX – Metrics, YTD, variances
+VBA – Secured structure & automation
+Excel – Interactive dashboards
+
+🧩 Key Features
+✔ Automated ETL with Power Query
+
+Cleansing, normalizing & transforming raw data
+Standardized branches, usages, site names
+Parametric transformation rules
+Fully reproducible pipeline
+
+📷 Power Query Editor
+/images/PowerQuery_Editor.png
+
+✔ Robust Data Model (PowerPivot)
+Star schema with fact table + multiple dimensions
+Relationships for Usage, Branch, Zone, Date, Mutuelle
+Optimized for performance
+
+📷 Data Model Overview
+/images/model_data_powerpivot.png
+
+✔ Advanced DAX Measures
+Includes:
+
+YTD CA
+YoY variance
+Variance % logic
+Objective vs Real gap
+Usage & Mutuelle decomposition
+
+📷 DAX Measures Screenshot
+/images/DAX_Model.png
+
+📈 KPI Dashboard Overview
+
+The main dashboard includes:
+Multi-criteria filtering
+KPIs: CA_YTD, Var_CA, Var_% , Transfers, Net de Trsfr, Objectives
+Color-coded performance indicators
+Multi-agency comparison
+
+📷 Dashboard KPI Overview
+[![Dashboard KPI Overview](/images/Dashboard_kpi_overview.png)](/images/Dashboard_kpi_overview.png)
+
+
+🗂 Detailed Agency Breakdown
+
+Bureau-level KPIs
+Variance and transfer impacts
+YTD progress vs objective
+KPI visual indicators
+
+📷 Detailed Agency View
+/images/Dashboard_agency_details.png
+
+🧠 What This Project Demonstrates (Technical Summary)
+🔧 Technical BI Skills
+
+Power Query (M) • PowerPivot • DAX • Excel automation (VBA) • ETL • Data quality • Optimization
+
+📊 Analytics Expertise
+
+KPI construction • YTD/YoY logic • Variance interpretation • Multi-dimensional slicing
+
+🏢 Professional Delivery
+
+Clean architecture • Real business logic • Documentation • UX for decision makers
+
+📁 Project Structure
+/images
+   PowerQuery_Editor.png
+   Dashboard_kpi_overview.png
+   Dashboard_image_nd.png
+   Dashboard_agency_details.png
+   model_data_powerpivot.png
+   DAX_Model.png
+
 Agency-Performance-KPI-Dashboard.xlsm
+LICENSE
+README.md
 
-Make sure you are using Excel for Windows
-(PowerPivot + VBA required — not supported on Mac or Excel Online)
+👨‍💻 Author
 
-🔄 2. Enable Macros & External Data
-
-When Excel opens:
-
-Click “Enable Content” (yellow warning bar)
-
-Click “Enable Macros”
-
-If prompted, allow external connections for Power Query
-
-This allows:
-
-Automated refresh
-
-Button actions
-
-KPI recalculations
-
-Slicer interactions
-
-🖱️ 3. Use Only the Interactive Controls
-
-The workbook is protected.
-You can use the dashboard but not modify:
-
-✔️ Allowed actions (for users):
-
-Click on buttons to:
-
-Refresh KPIs
-
-Navigate to dashboard sections
-
-Trigger automated scripts (if VBA button actions exist)
-
-Use slicers to filter:
-
-Zone
-
-Bureau
-
-Mutuelle
-
-Usage
-
-Lignes de produits (Auto, RD, RC, etc.)
-
-Interact with PivotTables (filters only)
-
-Explore charts and visual decompositions
-
-❌ Not allowed (sheet is protected):
-
-Modifying formulas
-
-Changing PivotTables structure
-
-Editing Power Query steps
-
-Accessing VBA code (password protected)
-
-Adding new data directly into tables
-
-🔄 4. Refresh the Dashboard
-
-To update KPIs with the latest data imports:
-
-Option 1 — Refresh using the button (recommended)
-
-If the dashboard includes a refresh button:
-
-Click “Refresh Data”
-
-Wait for:
-
-Power Query updates
-
-PowerPivot recalculations
-
-DAX measures refresh
-
-Option 2 — Manual
-
-Go to:
-Data → Refresh All
-
-⚠️ The refresh process may take several seconds depending on your data size.
-
-📌 5. Protected Workbook Behavior
-
-The dashboard is intentionally protected so that:
-
-The layout remains stable
-
-DAX measures and data model remain consistent
-
-Power Query
-
-VBA automation cannot be overwritten
-
-Business rules stay intact
-
-No password is required for normal use.
-Only the developer can unlock advanced layers.
-
-🧪 6. Troubleshooting
-If slicers don’t respond
-
-➡️ Make sure macros and data connections are enabled.
-
-If PivotTables show “Data Model not available”
-
-➡️ You must use Excel for Windows (PowerPivot required).
-
-If buttons do nothing
-
-➡️ Macros are blocked — reopen the file and click Enable Macros.
-
-🎯 Summary for Users
-
-✔️ You can:
-Filter, click, explore, refresh
-
-❌ You cannot:
-Modify formulas, VBA, Power Query, or structure
+Adiliscoder
+Business Intelligence Developer / Data Analyst
+Excel • PowerQuery • PowerPivot • DAX • SQL • Python • ETL
