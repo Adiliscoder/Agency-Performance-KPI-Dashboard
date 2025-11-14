@@ -15,7 +15,7 @@ Power Query • Excel • PowerPivot • DAX • Data Modeling • Business Inte
 This project demonstrates my ability to design, build, and maintain complete Excel-based Business Intelligence solutions for real-world operational needs.
 Originally created in a corporate environment for multi-agency performance tracking, this public version recreates the full logic, architecture, automation, and analytics while keeping all sensitive data removed.
 ## 🔗 Connect with Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20KHERHBECH-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adil-k-06735123b/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20KHERIBECH-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adil-k-06735123b/)
 
 👤 My Role
 
