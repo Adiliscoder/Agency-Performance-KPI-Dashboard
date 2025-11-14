@@ -114,7 +114,7 @@ Parametric transformation rules
 Fully reproducible pipeline
 
 📷 Power Query Editor
-/images/PowerQuery_Editor.png
+![Power Query Editor](images/PowerQuery_Editor.png)
 
 ✔ Robust Data Model (PowerPivot)
 Star schema with fact table + multiple dimensions
@@ -122,7 +122,7 @@ Relationships for Usage, Branch, Zone, Date, Mutuelle
 Optimized for performance
 
 📷 Data Model Overview
-/images/model_data_powerpivot.png
+![Data Model Overview](images/model_data_powerpivot.png)
 
 ✔ Advanced DAX Measures
 Includes:
@@ -134,7 +134,44 @@ Objective vs Real gap
 Usage & Mutuelle decomposition
 
 📷 DAX Measures Screenshot
-/images/DAX_Model.png
+![DAX Measures](images/DAX_Model.png)
+
+### ✔ VBA Automation & Workbook Security
+
+This project contains several VBA modules designed to automate workflow, secure the Excel environment, and enhance the user experience.  
+Key capabilities implemented through VBA include:
+
+🔒 **1. Workbook & Dashboard Protection**
+- Automatically protects each sheet with controlled permissions  
+- Allows slicer interaction while locking all other shapes and objects  
+- Prevents accidental editing of PivotTables and formulas  
+- Ensures consistent and safe usage for non-technical users  
+
+🔄 **2. Automated Refresh & Update Control**
+- Prevents simultaneous update conflicts through an `IsUpdating` flag  
+- Secures ETL refresh steps and avoids user interference during updates  
+- Guarantees clean and reproducible KPI calculations
+
+📊 **3. Dynamic Graph Formatting**
+The VBA code automatically formats charts based on KPI values:
+
+- Automatic color coding of bars (green/positive vs red/negative)
+- Smart label formatting for readability
+- Dynamic recoloring based on category (e.g., MAMDA / MCMA / MAEM)
+- Improved visibility and UX for dashboard charts
+
+🖼 **4. Enhanced Visualization for Circular KPIs**
+- Category-based color logic  
+- Custom label formatting  
+- Automated outline & contrast adjustments  
+
+🗂 **5. Hidden Sheet & Navigation Management**
+- Automatically unhides protected sheets when needed  
+- Controls scroll area to restrict navigation to the dashboard zone  
+- Prevents accidental scrolling into raw data or hidden areas  
+
+📷 VBA Module Overview  
+![VBA Module](images/KPI_Dashboard_VBA_Module.png)
 
 📈 KPI Dashboard Overview
 
@@ -156,7 +193,7 @@ YTD progress vs objective
 KPI visual indicators
 
 📷 Detailed Agency View
-/images/Dashboard_agency_details.png
+![Agency Details](images/Dashboard_agency_details.png)
 
 🧠 What This Project Demonstrates (Technical Summary)
 🔧 Technical BI Skills
