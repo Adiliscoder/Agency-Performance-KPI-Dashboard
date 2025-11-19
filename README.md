@@ -219,6 +219,8 @@ Clean architecture • Real business logic • Documentation • UX for decision
    model_data_powerpivot.png
    DAX_Model.png
 
+> “Full version available upon request.”
+
 Agency-Performance-KPI-Dashboard.xlsm
 LICENSE
 README.md
