@@ -2,215 +2,237 @@
 > *This project reflects real business logic and real operational processes, but all data has been fully anonymized.*  
 > *No identifiable or sensitive company information is included in this public version.*
 
-📊 Agency Performance KPI Dashboard
+# 📊 Agency Performance KPI Dashboard
 
-📌 Project originally developed in a professional environment for performance monitoring across a network of multiple agencies.
-This public version has been fully anonymized and rebuilt to highlight my expertise in:
-Power Query • Excel • PowerPivot • DAX • Data Modeling • Business Intelligence • KPI Automation.
+📌 Project originally developed in a professional environment for performance monitoring across a network of multiple agencies.  
+This public version has been fully anonymized and rebuilt to highlight my expertise in:  
+**Power Query • Excel • PowerPivot • DAX • Data Modeling • Business Intelligence • KPI Automation.**
 
 📊 Professional BI Dashboard built end-to-end for executive performance monitoring
 
-🎯 Recruiter-Focused Summary
+---
 
-This project demonstrates my ability to design, build, and maintain complete Excel-based Business Intelligence solutions for real-world operational needs.
-Originally created in a corporate environment for multi-agency performance tracking, this public version recreates the full logic, architecture, automation, and analytics while keeping all sensitive data removed.
 ## 🔗 Connect with Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20KHERIBECH-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adil-k-06735123b/)
 
-👤 My Role
+---
 
-I independently managed the full lifecycle of this BI solution:
-Requirements gathering with business teams
-Designing KPIs and performance indicators
-Building the data model (PowerPivot)
-Developing ETL pipelines with Power Query
-Implementing DAX calculations for KPIs, YTD, and variance analysis
-Creating interactive dashboards and user-friendly navigation
-Securing the Excel file (VBA protection, locked structure, controlled user inputs)
+# 🎯 Recruiter-Focused Summary
 
-➡️ This project highlights my ability to deliver production-ready BI tools used daily by non-technical business users.
+This project demonstrates my ability to **design, build, automate, and maintain full Excel-based BI systems** for real operational decision-making.
 
-🚀 What This Project Demonstrates About My Skills
-🧩 1. End-to-End Data Workflow Ownership
+Originally built for multi-agency performance tracking, this public version **recreates the entire logic and architecture**, while removing all sensitive data.
 
-I built the entire workflow:
-Extract → Transform → Load (Power Query)
-Data modeling (PowerPivot)
-KPIs & measures (DAX)
-Visualization & interaction (Excel dashboards + slicers)
-Automation & refresh logic (VBA + Power Query)
+---
 
-➡️ Demonstrates my capacity to design full BI systems autonomously.
+# 👤 My Role
 
-🎯 2. Strong Data Modeling & KPI Logic
+I independently handled the full BI lifecycle:
 
-Normalization of raw operational data
-Segmentation logic (branches, sites, usages, mutuelles)
-YTD / YoY variance calculations
-Multi-level dynamic filtering & cross-analysis
+- Requirements gathering with business teams  
+- Designing KPIs & performance indicators  
+- Building the data model (PowerPivot)  
+- Developing ETL pipelines with Power Query  
+- Implementing DAX calculations (YTD, YoY, variances)  
+- Creating interactive dashboards and UX flows  
+- Securing the Excel file (VBA protection, locked structure)  
 
-➡️ Shows advanced analytical and KPI engineering skills.
+➡️ Demonstrates my ability to build production-ready BI tools used by non-technical users.
 
-📈 3. Business Impact
+---
 
-This dashboard enables:
+# 🧩 1. End-to-End Data Workflow Ownership
 
-Better monitoring of agency performance
-Faster and more reliable decision-making
-Standardized metrics shared across stakeholders
-Significant time savings through automation
-Clear visibility on objectives and variances
+I implemented the full workflow:
 
-➡️ Demonstrates strong business understanding.
+- **Extract →** SQL, CSV, Excel  
+- **Transform →** Power Query (M)  
+- **Load →** PowerPivot  
+- **Model →** Star Schema  
+- **Calculate →** DAX KPIs  
+- **Automate →** VBA  
+- **Visualize →** Excel dashboards  
 
-🛠 4. Technical Skills Practiced
+➡️ Full ownership from raw data to decision-ready KPIs.
 
-Power Query (M language, ETL automation)
-PowerPivot (data model, relationships)
-DAX (YTD, YoY, variance, KPIs)
-Excel (advanced dashboards, slicers, visuals)
-VBA (secured structure, automation)
-Data Cleaning & Standardization
-Dataset performance optimization
+---
 
-➡️ Matches BI Analyst & Data Analyst skill expectations.
+# 🗄️ 2. Data Sources & ETL Architecture (Two Fact Tables)
 
-🧪 5. Professional-Grade Delivery
+This project integrates **multiple real-world data sources**, including **two fact tables** and several dimensions.
 
-Protected Excel structure (locked sheets + protected VBA project)
-Clean and documented architecture
-Real-world business rules
-Optimized refresh performance
+---
 
-➡️ Shows high standards of BI delivery.
+## 🔹 FACT TABLE 1 — SQL Source (Primary)
+Loaded via a SQL query, containing:
 
-⭐ In Short
+- Turnover (CA)  
+- YTD calculations  
+- Transfers (in/out)  
+- Monthly historical data  
+- Variance logic  
 
-A complete demonstration of my ability to build professional BI systems, combining business understanding, technical skills, and clean execution.
+SQL ensures reliable, validated operational data.
 
-📊 Technical Project Description
-Professional-grade Excel BI Dashboard for multi-agency performance monitoring
-🚀 Overview
+---
 
-This dashboard consolidates:
-YTD results
-Variances vs previous year
-Objective tracking
-Usage decomposition
-Transfer impacts
-KPI analytics
-Multi-criteria filtering (Zone, Mutuelle, Branch, Bureau, Usage)
-Technologies used:
-Power Query – ETL & data cleansing
-PowerPivot – Data model & relationships
-DAX – Metrics, YTD, variances
-VBA – Secured structure & automation
-Excel – Interactive dashboards
+## 🔹 FACT TABLE 2 — CSV Source (Secondary)
+Imported via Power Query:
 
-🧩 Key Features
-✔ Automated ETL with Power Query
+- Support metrics  
+- Transfer details  
+- Usage decomposition  
+- Complementary KPI datasets  
 
-Cleansing, normalizing & transforming raw data
-Standardized branches, usages, site names
-Parametric transformation rules
-Fully reproducible pipeline
+Aligned with SQL fact table through normalization rules.
 
-📷 Power Query Editor
+---
+
+## 🔹 Dimension Tables — Excel & CSV
+
+Multiple DIM tables support filtering & relationships:
+
+- Mutuelle  
+- Branche  
+- Zone  
+- Bureau  
+- Usages  
+- Objectives reference tables  
+- Standardization rules  
+
+---
+
+## 🔹 Power Query ETL Workflow
+
+Power Query handles:
+
+- Cleaning & normalizing raw data  
+- Merging multi-source datasets  
+- Applying parametric transformations  
+- Renaming, mapping, and standardizing outputs  
+- Error prevention & data consistency  
+- Reproducible transformations  
+
+📷 Power Query Editor  
 ![Power Query Editor](images/PowerQuery_Editor.png)
 
-✔ Robust Data Model (PowerPivot)
-Star schema with fact table + multiple dimensions
-Relationships for Usage, Branch, Zone, Date, Mutuelle
-Optimized for performance
+---
 
-📷 Data Model Overview
+# 🧩 3. Robust Data Model (PowerPivot)
+
+A clean and optimized **star schema**:
+
+- FACT_CA (SQL)  
+- FACT_Support (CSV)  
+- Dimension tables (Excel/CSV)  
+
+Highlights:
+
+- One-to-many relationships  
+- Optimized cross-filtering  
+- Performance-oriented modeling  
+
+📷 Data Model Overview  
 ![Data Model Overview](images/model_data_powerpivot.png)
 
-✔ Advanced DAX Measures
+---
+
+# 🧩 4. Advanced DAX Measures
+
 Includes:
 
-YTD CA
-YoY variance
-Variance % logic
-Objective vs Real gap
-Usage & Mutuelle decomposition
+- CA_YTD  
+- YoY Variance  
+- Variance %  
+- Objective vs Real  
+- Usage decomposition  
+- Mutuelle decomposition
 
-📷 DAX Measures Screenshot
+📷 DAX Measures Screenshot  
 ![DAX Measures](images/DAX_Model.png)
 
-### ✔ VBA Automation & Workbook Security
+---
 
-This project contains several VBA modules designed to automate workflow, secure the Excel environment, and enhance the user experience.  
-Key capabilities implemented through VBA include:
+# 🔧 5. VBA Automation & Workbook Security
 
-🔒 **1. Workbook & Dashboard Protection**
-- Automatically protects each sheet with controlled permissions  
-- Allows slicer interaction while locking all other shapes and objects  
-- Prevents accidental editing of PivotTables and formulas  
-- Ensures consistent and safe usage for non-technical users  
+This project includes advanced VBA modules to automate and secure the dashboard.
 
-🔄 **2. Automated Refresh & Update Control**
-- Prevents simultaneous update conflicts through an `IsUpdating` flag  
-- Secures ETL refresh steps and avoids user interference during updates  
-- Guarantees clean and reproducible KPI calculations
+## 🔒 Workbook & Dashboard Protection
 
-📊 **3. Dynamic Graph Formatting**
-The VBA code automatically formats charts based on KPI values:
+- Allows slicer interaction  
+- Locks shapes & objects  
+- Prevents editing PivotTables  
+- Protects workbook structure  
 
-- Automatic color coding of bars (green/positive vs red/negative)
-- Smart label formatting for readability
-- Dynamic recoloring based on category (e.g., MAMDA / MCMA / MAEM)
-- Improved visibility and UX for dashboard charts
+## 🔄 Automated Refresh Logic
 
-🖼 **4. Enhanced Visualization for Circular KPIs**
-- Category-based color logic  
-- Custom label formatting  
-- Automated outline & contrast adjustments  
+- Uses `IsUpdating` flag  
+- Controls update cycle  
+- Prevents conflicts during refresh  
 
-🗂 **5. Hidden Sheet & Navigation Management**
-- Automatically unhides protected sheets when needed  
-- Controls scroll area to restrict navigation to the dashboard zone  
-- Prevents accidental scrolling into raw data or hidden areas  
+## 🎨 Dynamic Chart Formatting
+
+Automatically applied based on KPI context:
+
+- Positive values → green  
+- Negative values → red  
+- **Mutuelle colors follow brand identity (MCMA, MAMDA, MAEM)**  
+- Circular chart enhancements  
+- Automated label formatting  
+
+## 🗂 Hidden Sheet & UX Management
+
+- Controlled scroll area  
+- Secure navigation  
+- Unhides sheets only when required  
 
 📷 VBA Module Overview  
 ![VBA Module](images/KPI_Dashboard_VBA_Module.png)
 
-📈 KPI Dashboard Overview
+---
 
-The main dashboard includes:
-Multi-criteria filtering
-KPIs: CA_YTD, Var_CA, Var_% , Transfers, Net de Trsfr, Objectives
-Color-coded performance indicators
-Multi-agency comparison
+# 📈 Dashboard Overview
 
-📷 Dashboard KPI Overview
+## 🌐 Main KPI Dashboard
+
+- Multi-criteria filtering  
+- KPIs: CA_YTD, Var_CA, Var_%, Transfers, Objectives  
+- Color-coded performance indicators  
+- Multi-agency comparison  
+
+📷 Dashboard KPI Overview  
 [![Dashboard KPI Overview](/images/Dashboard_kpi_overview.png)](/images/Dashboard_kpi_overview.png)
 
+---
 
-🗂 Detailed Agency Breakdown
+## 🗂 Detailed Agency Breakdown
 
-Bureau-level KPIs
-Variance and transfer impacts
-YTD progress vs objective
-KPI visual indicators
+- Bureau-level KPIs  
+- Transfer impact analysis  
+- Objective tracking  
+- KPI performance signals  
 
-📷 Detailed Agency View
+📷 Detailed Agency View  
 ![Agency Details](images/Dashboard_agency_details.png)
 
-🧠 What This Project Demonstrates (Technical Summary)
-🔧 Technical BI Skills
+---
 
-Power Query (M) • PowerPivot • DAX • Excel automation (VBA) • ETL • Data quality • Optimization
+# 🧠 Technical Summary
 
-📊 Analytics Expertise
+### 🔧 Technical BI Skills  
+Power Query (M) • PowerPivot • DAX • Excel Automation (VBA) • SQL • ETL • Data Quality • Optimization
 
-KPI construction • YTD/YoY logic • Variance interpretation • Multi-dimensional slicing
+### 📊 Analytics Expertise  
+KPI engineering • YTD/YoY logic • Variance analysis • Multi-dimensional slicing
 
-🏢 Professional Delivery
+### 🏢 Professional Delivery  
+Clean architecture • Real business logic • Documentation • UX for executives
 
-Clean architecture • Real business logic • Documentation • UX for decision makers
+---
 
-📁 Project Structure
+# 📁 Project Structure
+
+```
 /images
    PowerQuery_Editor.png
    Dashboard_kpi_overview.png
@@ -218,18 +240,24 @@ Clean architecture • Real business logic • Documentation • UX for decision
    Dashboard_agency_details.png
    model_data_powerpivot.png
    DAX_Model.png
+   KPI_Dashboard_VBA_Module.png
 
-> Note:
-> 
->Screenshots and a video demo are provided to showcase the technical architecture and features of this BI dashboard.
->The full working file is available upon request for recruitment purposes only and remains protected under the CC BY-NC-ND 4.0 license.
-
-Agency-Performance-KPI-Dashboard.xlsm
 LICENSE
 README.md
+```
 
-👨‍💻 Author
+---
 
-Adiliscoder
-Business Intelligence Developer / Data Analyst
+> # 📄 Full Version Availability
+> Screenshots and a video demo are provided to showcase the architecture and features.
+> 
+>➡️ **The full working Excel file can be shared upon request for recruitment purposes only.**  
+>It remains protected under the **CC BY-NC-ND 4.0 license**.
+
+---
+
+# 👨‍💻 Author
+
+**Adiliscoder**  
+Business Intelligence Developer / Data Analyst  
 Excel • PowerQuery • PowerPivot • DAX • SQL • Python • ETL
