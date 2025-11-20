@@ -220,6 +220,7 @@ Clean architecture • Real business logic • Documentation • UX for decision
    DAX_Model.png
 
 > Note:
+> 
 >Screenshots and a video demo are provided to showcase the technical architecture and features of this BI dashboard.
 >The full working file is available upon request for recruitment purposes only and remains protected under the CC BY-NC-ND 4.0 license.
 
