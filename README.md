@@ -2,22 +2,22 @@
 > *This project reflects real business logic and real operational processes, but all data has been fully anonymized.*  
 > *No identifiable or sensitive company information is included in this public version.*
 
-# 📊 Agency Performance KPI Dashboard
+### 📊 Agency Performance KPI Dashboard
 
 📌 Project originally developed in a professional environment for performance monitoring across a network of multiple agencies.  
 This public version has been fully anonymized and rebuilt to highlight my expertise in:  
 **Power Query • Excel • PowerPivot • DAX • Data Modeling • Business Intelligence • KPI Automation.**
 
-📊 Professional BI Dashboard built end-to-end for executive performance monitoring
+### 📊 Professional BI Dashboard built end-to-end for executive performance monitoring
 
 ---
 
-## 🔗 Connect with Me  
+### 🔗 Connect with Me  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20KHERIBECH-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adil-k-06735123b/)
 
 ---
 
-# 🎯 Recruiter-Focused Summary
+### 🎯 Recruiter-Focused Summary
 
 This project demonstrates my ability to **design, build, automate, and maintain full Excel-based BI systems** for real operational decision-making.
 
@@ -25,7 +25,7 @@ Originally built for multi-agency performance tracking, this public version **re
 
 ---
 
-# 👤 My Role
+### 👤 My Role
 
 I independently handled the full BI lifecycle:
 
@@ -41,7 +41,7 @@ I independently handled the full BI lifecycle:
 
 ---
 
-# 🧩 1. End-to-End Data Workflow Ownership
+### 🧩 1. End-to-End Data Workflow Ownership
 
 I implemented the full workflow:
 
@@ -57,52 +57,60 @@ I implemented the full workflow:
 
 ---
 
-# 🗄️ 2. Data Sources & ETL Architecture (Two Fact Tables)
+### 🗄️ 2. Data Sources & ETL Architecture (Two Fact Tables)
 
 This project integrates **multiple real-world data sources**, including **two fact tables** and several dimensions.
 
 ---
 
-## 🔹 FACT TABLE 1 — SQL Source (Primary)
+### 🔹 FACT TABLE 1 — SQL Source (Primary)
 Loaded via a SQL query, containing:
 
-- Turnover (CA)  
-- YTD calculations  
-- Transfers (in/out)  
-- Monthly historical data  
-- Variance logic  
+- Turnover (CA / Primenette) — monthly net premium amounts  
+- Monthly historical data — using mois_comptable for time-series analysis
+- Yearly aggregation support — raw data allows annual totals by exercise
+- 3-year rolling analysis support — enough historical depth to compute rolling multi-year performance
+- Operational segmentation — segment, nom_site, branche, Région
+- Product usage and contract type — usage, nomavenant
+- Age-group slicing — Tranche_age for demographic analytics
 
 SQL ensures reliable, validated operational data.
 
 ---
 
-## 🔹 FACT TABLE 2 — CSV Source (Secondary)
-Imported via Power Query:
+### 🔹 FACT TABLE 2 — CSV Source (Secondary)
+Imported via Power Query from an internal PHP-based web application that exports operational reports in CSV format.
+This secondary dataset provides complementary transfer-related information that is not available in the primary SQL source, including:
 
-- Support metrics  
+- Subsidiary (e.g., Sub1)
+- Production type (e.g., AUTO)
+- Usage category (e.g., AXX, D11)
+- Bureau / Agency  
 - Transfer details  
 - Usage decomposition  
-- Complementary KPI datasets  
+- Net premium amounts (Total prime nette)  
 
-Aligned with SQL fact table through normalization rules.
-
----
-
-## 🔹 Dimension Tables — Excel & CSV
-
-Multiple DIM tables support filtering & relationships:
-
-- Mutuelle  
-- Branche  
-- Zone  
-- Bureau  
-- Usages  
-- Objectives reference tables  
-- Standardization rules  
+All CSV data is cleaned, standardized, and aligned with the SQL fact table through normalization rules to ensure full consistency and reliable cross-source consolidation.
 
 ---
 
-## 🔹 Power Query ETL Workflow
+### 🔹 Dimension Tables — Excel
+
+Multiple Excel-based DIM tables support filtering, relationships, and data harmonization across the model, including:
+
+- Subsidary
+- Branche (Product line)
+- Zone / Region
+- Bureau (Agency)
+- Usages & Usage Codes  
+- Objective/Target reference tables  
+- Standardization and mapping rules
+ 
+These dimension tables ensure consistent filtering, accurate joins, and unified business definitions across all fact tables.
+
+---
+
+### 🔹 Power Query ETL Workflow
 
 Power Query handles:
 
@@ -118,7 +126,7 @@ Power Query handles:
 
 ---
 
-# 🧩 3. Robust Data Model (PowerPivot)
+### 🧩 3. Robust Data Model (PowerPivot)
 
 A clean and optimized **star schema**:
 
@@ -137,7 +145,7 @@ Highlights:
 
 ---
 
-# 🧩 4. Advanced DAX Measures
+### 🧩 4. Advanced DAX Measures
 
 Includes:
 
@@ -153,24 +161,24 @@ Includes:
 
 ---
 
-# 🔧 5. VBA Automation & Workbook Security
+### 🔧 5. VBA Automation & Workbook Security
 
 This project includes advanced VBA modules to automate and secure the dashboard.
 
-## 🔒 Workbook & Dashboard Protection
+### 🔒 Workbook & Dashboard Protection
 
 - Allows slicer interaction  
 - Locks shapes & objects  
 - Prevents editing PivotTables  
 - Protects workbook structure  
 
-## 🔄 Automated Refresh Logic
+### 🔄 Automated Refresh Logic
 
 - Uses `IsUpdating` flag  
 - Controls update cycle  
 - Prevents conflicts during refresh  
 
-## 🎨 Dynamic Chart Formatting
+### 🎨 Dynamic Chart Formatting
 
 Automatically applied based on KPI context:
 
@@ -180,7 +188,7 @@ Automatically applied based on KPI context:
 - Circular chart enhancements  
 - Automated label formatting  
 
-## 🗂 Hidden Sheet & UX Management
+### 🗂 Hidden Sheet & UX Management
 
 - Controlled scroll area  
 - Secure navigation  
@@ -191,9 +199,9 @@ Automatically applied based on KPI context:
 
 ---
 
-# 📈 Dashboard Overview
+### 📈 Dashboard Overview
 
-## 🌐 Main KPI Dashboard
+### 🌐 Main KPI Dashboard
 
 - Multi-criteria filtering  
 - KPIs: CA_YTD, Var_CA, Var_%, Transfers, Objectives  
@@ -205,7 +213,7 @@ Automatically applied based on KPI context:
 
 ---
 
-## 🗂 Detailed Agency Breakdown
+### 🗂 Detailed Agency Breakdown
 
 - Bureau-level KPIs  
 - Transfer impact analysis  
@@ -217,7 +225,7 @@ Automatically applied based on KPI context:
 
 ---
 
-# 🧠 Technical Summary
+### 🧠 Technical Summary
 
 ### 🔧 Technical BI Skills  
 Power Query (M) • PowerPivot • DAX • Excel Automation (VBA) • SQL • ETL • Data Quality • Optimization
@@ -248,7 +256,7 @@ README.md
 
 ---
 
-> # 📄 Full Version Availability
+> ### 📄 Full Version Availability
 > Screenshots and a video demo are provided to showcase the architecture and features.
 > 
 >➡️ **The full working Excel file can be shared upon request for recruitment purposes only.**  
