@@ -264,8 +264,8 @@ README.md
 
 ---
 
-# 👨‍💻 Author
-
+# 👨‍💻 Author <img src="images/Logo.png" width="40" style="vertical-align: middle; margin-left: 8px;" />
+ 
 **Adiliscoder**  
 Business Intelligence Developer / Data Analyst  
 Excel • PowerQuery • PowerPivot • DAX • SQL • Python • ETL
