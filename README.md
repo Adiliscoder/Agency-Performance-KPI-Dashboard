@@ -176,7 +176,7 @@ Automatically applied based on KPI context:
 
 - Positive values → green  
 - Negative values → red  
-- **Mutuelle colors follow brand identity (SUB2, SUB1, SUB3)**  
+- **Mutuelle colors follow brand identity (Sub2, Sub1, Sub3)**  
 - Circular chart enhancements  
 - Automated label formatting  
 
