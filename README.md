@@ -209,7 +209,7 @@ Automatically applied based on KPI context:
 - Multi-agency comparison  
 
 📷 Dashboard KPI Overview  
-[![Dashboard KPI Overview](/images/Dashboard_kpi_overview.png)](/images/Dashboard_kpi_Overview.png)
+[![Dashboard KPI Overview](/images/Dashboard_kpi_overview.png)](/images/Dashboard_KPI_Overview.png)
 
 ---
 
