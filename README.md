@@ -176,7 +176,7 @@ Automatically applied based on KPI context:
 
 - Positive values → green  
 - Negative values → red  
-- **Mutuelle colors follow brand identity (MCMA, MAMDA, MAEM)**  
+- **Mutuelle colors follow brand identity (SUB2, SUB1, SUB3)**  
 - Circular chart enhancements  
 - Automated label formatting  
 
