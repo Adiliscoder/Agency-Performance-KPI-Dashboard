@@ -264,7 +264,7 @@ README.md
 
 ---
 
-# 👨‍💻 Author <img src="images/Logo3.png" width="40" style="vertical-align: middle; margin-left: 8px;" />
+# 👨‍💻 Author <img src="images/B&W Logo.png" width="40" style="vertical-align: middle; margin-left: 8px;" />
  
 **Adiliscoder**  
 Business Intelligence Developer / Data Analyst  
