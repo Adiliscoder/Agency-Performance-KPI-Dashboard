@@ -21,8 +21,6 @@ This public version has been fully anonymized and rebuilt to highlight my expert
 
 This project demonstrates my ability to **design, build, automate, and maintain full Excel-based BI systems** for real operational decision-making.
 
-Originally built for multi-agency performance tracking, this public version **recreates the entire logic and architecture**, while removing all sensitive data.
-
 ---
 
 ### 👤 My Role
