@@ -2,13 +2,11 @@
 > *This project reflects real business logic and real operational processes, but all data has been fully anonymized.*  
 > *No identifiable or sensitive company information is included in this public version.*
 
-### 📊 Agency Performance KPI Dashboard
+### 📊 Agency Performance KPI Dashboard — Executive BI Performance Monitoring
 
 📌 Project originally developed in a professional environment for performance monitoring across a network of multiple agencies.  
 This public version has been fully anonymized and rebuilt to highlight my expertise in:  
-**Power Query • Excel • PowerPivot • DAX • Data Modeling • Business Intelligence • KPI Automation.**
-
-### 📊 Professional BI Dashboard built end-to-end for executive performance monitoring
+**Power Query • Excel • PowerPivot • DAX • Power BI (tabular ecosystem) • Data Modeling • Business Intelligence • KPI Automation.**
 
 ---
 
@@ -20,6 +18,8 @@ This public version has been fully anonymized and rebuilt to highlight my expert
 ### 🎯 Recruiter-Focused Summary
 
 This project demonstrates my ability to **design, build, automate, and maintain full Excel-based BI systems** for real operational decision-making.
+
+✅ Target audience: BI Developers, Data Analysts, Excel Power Users, Consulting roles
 
 ---
 
