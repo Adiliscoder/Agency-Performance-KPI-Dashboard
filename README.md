@@ -11,7 +11,7 @@ This public version has been fully anonymized and rebuilt to highlight my expert
 ---
 
 ### 🔗 Connect with Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adil%20KHERIBECH-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adil-k-06735123b/)
+[![Project Video Demo](https://raw.githubusercontent.com/Adiliscoder/Agency-Performance-KPI-Dashboard/main/images/Video_Demo.png)](https://drive.google.com/file/d/1MTi8TRUKhgoXtCB9JOGmYlKvrNr7UVQr/view)
 
 ---
 
