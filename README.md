@@ -160,7 +160,7 @@ Includes:
 - Variance %  
 - Objective vs Real  
 - Usage decomposition  
-- Mutuelle decomposition
+- Subsidiary decomposition
 
 📷 DAX Measures Screenshot  
 ![DAX Measures](images/DAX_Model.png)
