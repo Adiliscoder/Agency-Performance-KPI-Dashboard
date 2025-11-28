@@ -10,9 +10,9 @@ This public version has been fully anonymized and rebuilt to highlight my expert
 
 ---
 
-### 🔗 Connect with Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/adil-k-06735123b)
+### 🔗 Connect with Me
 
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-ADIL%20KHERIBECH-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-k-06735123b)
 
 ---
 
