@@ -215,7 +215,7 @@ Automatically applied based on KPI context:
 - Multi-agency comparison  
 
 📷 Dashboard KPI Overview  
-![VBA Module](images/Dashboard_KPI_overview.png)
+![Dashboard KPI Overview](images/Dashboard_KPI_overview.png)
 
 ---
 
