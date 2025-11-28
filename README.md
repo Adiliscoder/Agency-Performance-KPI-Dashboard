@@ -25,7 +25,7 @@ This project demonstrates my ability to **design, build, automate, and maintain 
 
 ## 🎬 Project Video Demo (5 min)
 
-[![Project Video Demo](images/video_demo.png)](https://drive.google.com/file/d/1MTi8TRUKhgoXtCB9JOGmYlKvrNr7UVQr/view)
+[![Project Video Demo](images/Video_Demo.png)](https://drive.google.com/file/d/1MTi8TRUKhgoXtCB9JOGmYlKvrNr7UVQr/view)
 
 ▶️ **Watch the full dashboard walkthrough (Google Drive)**
 
