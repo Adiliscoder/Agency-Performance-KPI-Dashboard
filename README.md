@@ -137,7 +137,7 @@ Power Query handles:
 A clean and optimized **star schema**:
 
 - FACT_CA (SQL)  
-- FACT_Support (CSV)  
+- FACT_Transfer (CSV)  
 - Dimension tables (Excel/CSV)  
 
 Highlights:
