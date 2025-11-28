@@ -265,7 +265,7 @@ README.md
 > ### 📄 Full Version Availability
 > Screenshots and a video demo are provided to showcase the architecture and features.
 > 
->➡️ **The full working Excel file can be shared upon request for recruitment purposes only.**  
+>➡️ **The full working Excel file can be shared upon request.**  
 >It remains protected under the **CC BY-NC-ND 4.0 license**.
 
 ---
