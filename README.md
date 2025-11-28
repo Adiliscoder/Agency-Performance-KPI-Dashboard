@@ -252,10 +252,10 @@ Clean architecture • Real business logic • Documentation • UX for executiv
 PowerQuery_Editor.png
 Dashboard_KPI_overview.png
 Dashboard_agency_details.png
-model_data_powerpivot.png
+Model_Data_Powerpivot.png
 DAX_Model.png
 KPI_Dashboard_VBA_Module.png
-video_demo.png
+Video_Demo.png
 
 LICENSE
 README.md
