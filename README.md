@@ -40,7 +40,7 @@ I independently handled the full BI lifecycle:
 - Building the data model (PowerPivot)  
 - Developing ETL pipelines with Power Query  
 - Implementing DAX calculations (YTD, YoY, variances)  
-- Creating interactive dashboards and UX flows  
+- Creating interactive dashboards  
 - Securing the Excel file (VBA protection, locked structure)  
 
 ➡️ Demonstrates my ability to build production-ready BI tools used by non-technical users.
