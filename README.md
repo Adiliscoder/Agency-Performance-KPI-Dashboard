@@ -148,7 +148,7 @@ Highlights:
 - Performance-oriented modeling  
 
 📷 Data Model Overview  
-![Data Model Overview](images/Model_data_powerpivot.png)
+![Data Model Overview](images/Model_Data_PowerPivot.png)
 
 ---
 
